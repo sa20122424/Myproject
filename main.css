@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+      
+
+    margin: 0;
+
+      font-family: "Roboto";
+
+ color: white;  
+}
+.hea{
+    background-color: black;
+    color: white;
+}
+.conteiner{
+    margin: 0 auto;
+    padding: 20px;
+    width: 1400px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+
+}
+.li:hover{
+
+    transition:0.30s ease;
+font-size: 25px;
+color: blue;
+}
+.btn-log_in{
+
+    width: 150px;
+    padding: 15px;
+border: none;
+border-radius: 10px;
+background-color: blue;
+color: white;
+
+}
+.project{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+}
+.h1_header{
+    text-align: center;
+    padding: 20px;
+   
+}
+.h1-project{
+    text-align: center;
+}
+.coffe1{
+ color: white;
+ font-size: 20px;
+
+}
+.pixer{
+    color: green    `;
+    font-size: 20px;
+}
+.project1{
+    padding: 36px;
+}
+.coffe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid white;
+    border-radius: 10px;
+    background-image: url("./Снимок\ экрана\ 2024-09-28\ 162732.png");
+    width: 350px;
+    height: 300px;
+}
+.coffe2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid white;
+    border-radius: 10px;
+    background-image: url("./Снимок\ экрана\ 2024-10-01\ 143643.png");
+    width: 350px;
+    height: 300px;
+}
+.coffe3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: solid white;
+    border-radius: 10px;
+    background-image: url("./Снимок\ экрана\ 2024-10-01\ 143517.png");
+    width: 350px;
+    height: 300px;
+}
